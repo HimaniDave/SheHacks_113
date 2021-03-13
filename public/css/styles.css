@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+.navbar-light .navbar-brand {
+  font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+.jumbotron-fluid {
+  display: flex;
+  margin-top: 1rem;
+  padding: 1.5rem;
+}
+
+.img {
+  width: 50%;
+  height: 50%;
+}
+
+.descrption {
+  margin: auto;
+}
+
+.btn-info {
+  background-color: #83d5fb;
+}
+
+.content-text {
+  padding: 0.275rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#contact {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+  box-shadow: 10px 10px #f2f2f2;
+}
+
+/* Typing effedt styles */
+.typing-effect {
+  display: flex;
+}
+.typing {
+  margin-left: 0.5rem;
+  position: relative;
+  color: black;
+  font-size: 3rem;
+}
+.typing::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  margin-left: 0.2rem;
+  border-right: 2px solid black;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End of typing effedt styles */
+
+@media screen and (max-width: 600px) {
+  .img {
+    width: 100%;
+    text-align: left;
+  }
+  #main {
+    flex-wrap: wrap;
+  }
+}
+
+/* contact */
+.main-heading {
+  text-align: center;
+  padding: 0.8rem;
+  margin: 0.8rem;
+}
+
+.footer {
+  background-color: #83d5fb;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+.footer-text {
+  margin-top: 0.5rem;
+}
+
+.whyus {
+  line-height: 2.5rem;
+  margin: 1.5rem;
+}
+
+.signup-container {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.signup-container:hover {
+  box-shadow: 10px 10px 10px 10px #858783;
+}

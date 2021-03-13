@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <!-- No need to mention public folder "css/name_of_the_respectiove_stylesheet, similarly with js" -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Secura</title>
+  </head>
+  <body>
+    <%- include("header") -%>
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+      <div class="jumbotron-fluid intro" id="main">
+        <img
+          class="img col-6"
+          src=" https://cdn.dribbble.com/users/2879528/screenshots/11007898/media/02a3ee1367c85fbf8ee060614cb97fb0.jpeg?compress=1&resize=1200x900"
+          alt="photo"
+        />
+        <div class="descrption">
+          <div class="typing-effect">
+            <!-- <h2>Password :</h2> -->
+            <h1 class="typing"></h1>
+          </div>
+          <h2 class="content-text">Have a habit of forgetting passwords.</h2>
+
+          <h4 class="content-text">Don't worry we have got you covered!</h4>
+          <p class="content-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Laboriosam, veritatis.
+          </p>
+          <button type="button" class="btn btn-info">
+            <a href="signup">Get started</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End of Container -->
+
+    <!-- About us -->
+    <h2 class="main-heading" id="about">Why us?</h2>
+
+    <div class="jumbotron-fluid intro">
+      <br>
+      <div class="whyus">
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequatur assumenda autem dolorum quasi in quae ipsum delectus quis perferendis praesentium ducimus, quod culpa quos! Provident amet aut pariatur quis alias mollitia, praesentium doloremque corrupti, voluptatibus illum illo. Explicabo pariatur hic nostrum consequatur distinctio ipsam odio enim ratione natus earum accusamus neque numquam, dolores necessitatibus vitae laborum nam totam error sapiente veritatis obcaecati in minima. Quam, explicabo, officiis maxime perspiciatis molestiae recusandae laboriosam autem repellat placeat voluptates molestias earum quos odio architecto, iure aliquid quasi! Incidunt magnam omnis possimus vitae quos eos commodi impedit aliquid aliquam! Doloremque veniam id ducimus?</p>
+      
+      <p >When there already exists Chrome extension to save passwords then what's the use of this <strong>Secura</strong></strong></p>
+    </div>
+    </div>
+    <!-- end of about us -->
+
+    <%- include ("contact") -%>
+
+    <%- include ("footer") -%>
+
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

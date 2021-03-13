@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <%- include ("header") -%>
+
+    <h1 class="main-heading">Signup</h1>
+    <h4 class="main-heading">
+      Remember this master password as forgetting this one would lead to major
+      loss of other passwords.
+    </h4>
+    <div class="signup-container">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Username</label>
+          <input
+            type="name"
+            class="form-control"
+            id="exampleInputEmail1"
+            autocomplete="off"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            autocomplete="off"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            autocomplete="off"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+
+        <button type="button" class="btn btn-info">
+          <a href="#">Signup!</a>
+        </button>
+      </form>
+    </div>
+    <%- include ("footer") -%>
+  </body>
+</html>
