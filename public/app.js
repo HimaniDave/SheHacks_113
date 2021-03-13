@@ -34,8 +34,3 @@ navLink.forEach(function (e) {
     collapse.classList.toggle("show");
   });
 });
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}

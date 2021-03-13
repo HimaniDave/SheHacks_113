@@ -174,10 +174,6 @@ a {
   margin: 2rem;
 }
 
-/* .signup-container:hover {
-  box-shadow: 10px 10px 10px 10px #858783;
-} */
-
 /* Show passwords styles */
 .main-dashboard {
   border: 1px solid black;
@@ -190,14 +186,6 @@ a {
 .icon {
   margin-right: 0.5rem;
 }
-/* 
-.card {
-  margin: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-} */
 
 .cards {
   display: flex;
@@ -216,27 +204,14 @@ a {
 
 .container {
   box-shadow: 10px 10px #eee;
-  padding: 2rem;
-  margin: 3rem;
+  padding: 1.5rem;
+  margin: 2.5rem;
   border: 1px solid black;
   border-radius: 1rem;
   margin-bottom: 5rem;
+  text-align: center;
 }
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 1.25rem;
-  right: 1.875rem;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #83d5fb;
-  color: white;
-  cursor: pointer;
-  padding: 1rem;
-  border-radius: 0.625rem;
-  font-size: 1.125rem;
+.aboutus {
+  margin-bottom: 4rem;
 }
-
-/* generate password styles */
