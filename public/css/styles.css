@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .col-1 {
@@ -130,6 +131,10 @@ a {
   #main {
     flex-wrap: wrap;
   }
+  .cards {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 /* contact */
@@ -176,4 +181,23 @@ a {
 
 .icon {
   margin-right: 0.5rem;
+}
+/* 
+.card {
+  margin: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+  padding: 2rem;
+}
+.card {
+  margin: 1.6rem;
 }
