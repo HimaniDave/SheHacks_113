@@ -140,8 +140,8 @@ a {
     flex-wrap: wrap;
   }
   .cards {
-    flex-direction: column;
-    width: 100%;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
 
@@ -160,6 +160,10 @@ a {
 
 .footer-text {
   margin-top: 0.5rem;
+}
+
+.card-text {
+  flex-wrap: wrap;
 }
 
 .whyus {
@@ -188,14 +192,15 @@ a {
 }
 
 .cards {
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 4rem;
-  padding: 2rem;
 }
+
 .card {
-  margin: 1.6rem;
+  width: 60vh;
+  justify-content: space-evenly;
+  margin: 1rem;
 }
 
 .content-about {

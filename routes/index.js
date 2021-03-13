@@ -24,4 +24,7 @@ router.get("/dashboard", (req, res) => {
 router.get("/generate", (req, res) => {
   res.render("generatePasswords");
 });
+router.get("/display", (req, res) => {
+  res.render("displayPasswords");
+});
 module.exports = router;
