@@ -1,20 +1,23 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/",(req, res) => {
-    res.render("home")
+router.get("/", (req, res) => {
+  res.render("home");
 });
 
-router.get("/signup",(req, res)=>{
-    res.render("masterSignup")
+router.get("/signup", (req, res) => {
+  res.render("masterSignup");
 });
 
-router.get("/login",(req, res)=>{
-    res.render("masterLogin")
+router.get("/login", (req, res) => {
+  res.render("masterLogin");
 });
 
-router.get("/contact",(req, res)=>{
-    res.render("contact")
+router.get("/contact", (req, res) => {
+  res.render("contact");
 });
 
-module.exports = router
+router.get("/dashboard", (req, res) => {
+  res.render("showPasswords");
+});
+module.exports = router;
