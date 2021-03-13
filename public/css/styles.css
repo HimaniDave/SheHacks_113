@@ -67,6 +67,14 @@
   height: 50%;
 }
 
+.img-about {
+  width: 30%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .descrption {
   margin: auto;
 }
@@ -200,4 +208,17 @@ a {
 }
 .card {
   margin: 1.6rem;
+}
+
+.content-about {
+  line-height: 3rem;
+}
+
+.container {
+  box-shadow: 10px 10px #eee;
+  padding: 2rem;
+  margin: 3rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
 }
