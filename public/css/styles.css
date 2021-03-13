@@ -222,3 +222,21 @@ a {
   border-radius: 1rem;
   margin-bottom: 5rem;
 }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.875rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #83d5fb;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.625rem;
+  font-size: 1.125rem;
+}
+
+/* generate password styles */

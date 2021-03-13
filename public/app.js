@@ -1,4 +1,4 @@
-const texts = ["Qwerty", "Incorrect", "Abc123"];
+const texts = ["Qwerty", "Incorrect", "Abc123", "123456"];
 let count = 0;
 let index = 0;
 let currentText = "";
@@ -34,3 +34,8 @@ navLink.forEach(function (e) {
     collapse.classList.toggle("show");
   });
 });
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

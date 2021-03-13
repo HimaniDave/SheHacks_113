@@ -20,4 +20,8 @@ router.get("/contact", (req, res) => {
 router.get("/dashboard", (req, res) => {
   res.render("showPasswords");
 });
+
+router.get("/generate", (req, res) => {
+  res.render("generatePasswords");
+});
 module.exports = router;
