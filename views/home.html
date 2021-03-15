@@ -28,8 +28,66 @@
     <title>Secura</title>
   </head>
   <body>
-    <%- include("header") -%>
+    <!-- NAVBAR -->
+    <header id="home">
+      <nav
+        class="navbar navbar-light navbar-expand-lg"
+        id="my-navbar"
+        style="background-color: #83d5fb"
+      >
+        <!-- Navbar content -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Secura</a>
 
+          <button
+            id="togglerBtn"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse links-container"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link list-item js-scroll-trigger" href="#about"
+                  >About</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link list-item js-scroll-trigger" href="#features"
+                  >Features</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link list-item js-scroll-trigger" href="#contacts"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link list-item"
+                  aria-current="page"
+                  href="#"
+                  target="_blank"
+                  >Signup</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END OF NAVBAR -->
     <!-- Main Container -->
     <div class="container-fluid">
       <div class="jumbotron-fluid intro" id="main">
@@ -51,7 +109,7 @@
             Laboriosam, veritatis.
           </p>
           <button type="button" class="btn btn-info">
-            <a href="signup">Get started</a>
+            <a href="#">Get started</a>
           </button>
         </div>
       </div>
@@ -94,7 +152,7 @@
               <p class="card-text">
                 Can't think of a password Secura got this! Generate your
                 passwords here at no added cost. Get your password
-                <a href="/generate" target="_blank">here</a>
+                <a href="#" target="_blank">here</a>
               </p>
             </div>
           </div>
@@ -130,8 +188,68 @@
       </div>
     </div>
     <!-- end of features of secure! -->
+    <!-- Contact us -->
+    <h3 class="main-heading" id="contacts">Contact us for queries!</h3>
+    <div class="container-fluid">
+      <div class="jumbotron scroll-links" id="contact">
+        <div class="contact-bb border-class">
+          <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Name</label
+              >
+              <input
+                type="name"
+                autocomplete="off"
+                name="entry.273814093"
+                class="form-control"
+                id="exampleFormControlInput1"
+                required
+              />
+            </div>
 
-    <%- include ("contact") -%> <%- include ("footer") -%>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                autocomplete="off"
+                name="entry.273814093"
+                class="form-control"
+                id="exampleFormControlInput1"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Query</label
+              >
+              <textarea
+                class="form-control"
+                name="entry.199236889"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <button type="button" class="btn btn-info">
+              <a href="#">Submit!</a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End of contact us -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <p class="footer-text">
+        Copyright &copy; <span id="head"></span>| All rights reseverd!
+      </p>
+    </footer>
+    <!-- end of footer -->
 
     <!-- Bootstrap Js -->
     <script
