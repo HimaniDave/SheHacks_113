@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet" />
     <!-- No need to mention public folder "css/name_of_the_respectiove_stylesheet, similarly with js" -->
-    <link rel="stylesheet" href="../public/css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Secura</title>
 </head>
 
@@ -25,7 +25,7 @@
         <nav class="navbar navbar-light navbar-expand-lg" id="my-navbar" style="background-color: #83d5fb">
             <!-- Navbar content -->
             <div class="container-fluid">
-                <a class="navbar-brand" href="http://localhost/Shehacks_Team-113/views/home.php">Secura</a>
+                <a class="navbar-brand" href="home.php">Secura</a>
 
                 <button id="togglerBtn" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -46,8 +46,7 @@
                             <a class="nav-link list-item js-scroll-trigger" href="#contacts">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link list-item" aria-current="page"
-                                href="http://localhost/Shehacks_Team-113/views/masterSignup.php"
+                            <a class="nav-link list-item" aria-current="page" href="masterSignup.php"
                                 target="_blank">Signup</a>
                         </li>
                     </ul>
@@ -75,7 +74,7 @@
                     Laboriosam, veritatis.
                 </p>
                 <button type="button" class="btn btn-info">
-                    <a href="http://localhost/Shehacks_Team-113/views/masterSignup.php">Get started</a>
+                    <a href="masterSignup.php">Get started</a>
                 </button>
             </div>
         </div>
@@ -112,8 +111,7 @@
                         <p class="card-text">
                             Can't think of a password Secura got this! Generate your
                             passwords here at no added cost. Get your password
-                            <a href="http://localhost/Shehacks_Team-113/views/generatePasswords.php"
-                                target="_blank">here</a>
+                            <a href="generatePasswords.php" target="_blank">here</a>
                         </p>
                     </div>
                 </div>
@@ -148,23 +146,23 @@
     <div class="container-fluid">
         <div class="jumbotron scroll-links" id="contact">
             <div class="contact-bb border-class">
-                <form>
+                <form action="home.php" method="post">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Name</label>
-                        <input type="name" autocomplete="off" name="entry.273814093" class="form-control"
-                            id="exampleFormControlInput1" required />
+                        <input type="name" autocomplete="off" required name="entry.273814093" class="form-control"
+                            id="exampleFormControlInput1" />
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" autocomplete="off" name="entry.273814093" class="form-control"
-                            id="exampleFormControlInput1" required />
+                        <input type="email" autocomplete="off" required name="entry.273814093" class="form-control"
+                            id="exampleFormControlInput1" />
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Query</label>
-                        <textarea class="form-control" name="entry.199236889" id="exampleFormControlTextarea1" rows="3"
-                            required></textarea>
+                        <textarea class="form-control" required name="entry.199236889" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
                     </div>
                     <button type="button" class="btn btn-info">
                         <a href="">Submit!</a>
@@ -187,7 +185,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
-    <script src="../public/app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

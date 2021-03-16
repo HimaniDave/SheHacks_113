@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet" />
     <!-- No need to mention public folder "css/name_of_the_respectiove_stylesheet, similarly with js" -->
-    <link rel="stylesheet" href="../public/css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Dashboard</title>
 </head>
 
@@ -56,25 +56,7 @@
             </button>
         </form>
     </div>
-    <script src="/public/app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
-
-<!-- Tasks needs to be done! -->
-<!-- Once the user adds the neccessary details show me this dismissible alert -->
-
-<!-- 
-    
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-    <strong>Sucess!</strong> Your details have been saved successfully!
-    <button
-      type="button"
-      class="btn-close"
-      data-bs-dismiss="alert"
-      aria-label="Close"
-    ></button>
-  </div>;
- -->
-
-<!-- If all details are not correct show him the same message but the content changed -->
